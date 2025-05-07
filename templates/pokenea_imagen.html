@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Pokenea Imagen</title>
+    <title>Pokenea</title>
 </head>
 <body>
     <h1>{{ pokenea.nombre }}</h1>
     <img src="{{ pokenea.imagen }}" alt="Pokenea" width="300">
-    <p><strong>Frase:</strong> {{ pokenea.frase_filosofica }}</p>
-    <p><strong>Contenedor ID:</strong> {{ contenedor_id }}</p>
+    <p><strong>Altura:</strong> {{ pokenea.altura }} m</p>
+    <p><strong>Habilidad:</strong> {{ pokenea.habilidad }}</p>
+    <p><em>{{ pokenea.frase_filosofica }}</em></p>
+    <p><small>ID del contenedor: {{ contenedor_id }}</small></p>
 </body>
 </html>
