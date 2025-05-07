@@ -1,0 +1,27 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del código
+      uses: actions/checkout@v4
+
+    - name: Iniciar sesión en DockerHub
+      env:
+        DOCKER_USER: ${{ secrets.DOCKERHUB_USER }}
+        DOCKER_PASS: ${{ secrets.DOCKERHUB_PASS }}
+      run: echo $DOCKER_PASS | docker login -u $DOCKER_USER --password-stdin
+
+    - name: Construir la imagen Docker
+      run: docker build . --file Dockerfile --tag jebarriost/pokenea-app:latest
+
+    - name: Subir imagen a DockerHub
+      run: docker push jebarriost/pokenea-app:latest
