@@ -6,7 +6,7 @@ pokeneas = [
         "nombre": "PokeneaRoja",
         "altura": 1.2,
         "habilidad": "Fuego eterno",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea1.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea1.png",
         "frase_filosofica": "El fuego que ilumina también puede consumir."
     },
     {
@@ -14,7 +14,7 @@ pokeneas = [
         "nombre": "PokeneaVerde",
         "altura": 0.8,
         "habilidad": "Regeneración",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea2.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea2.png",
         "frase_filosofica": "Cada hoja caída es una lección."
     },
     {
@@ -81,8 +81,6 @@ pokeneas = [
         "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea10.png",
         "frase_filosofica": "El fuego ardiente es la pasión del alma."
     }
-    
-    
 ]
 
 def obtener_pokenea_aleatoria():
