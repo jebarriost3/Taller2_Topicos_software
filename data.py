@@ -22,7 +22,7 @@ pokeneas = [
         "nombre": "PokeneaAzul",
         "altura": 1.0,
         "habilidad": "Agua pura",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea3.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea3.png",    
         "frase_filosofica": "La calma del agua refleja la profundidad del alma."
     },
     {
@@ -30,7 +30,7 @@ pokeneas = [
         "nombre": "PokeneaAmarillo",
         "altura": 1.5,
         "habilidad": "Electricidad estática",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea4.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea4.png",
         "frase_filosofica": "La energía es la chispa de la vida."
     },
     {
@@ -38,7 +38,7 @@ pokeneas = [
         "nombre": "PokeneaNegro",
         "altura": 1.3,
         "habilidad": "Sombra eterna",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea5.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea5.png",
         "frase_filosofica": "En la oscuridad, la luz brilla más intensamente."
     },
     {
@@ -46,7 +46,7 @@ pokeneas = [
         "nombre": "PokeneaBlanco",
         "altura": 0.9,
         "habilidad": "Nieve eterna",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea6.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea6.png.png",
         "frase_filosofica": "La pureza de la nieve es un reflejo del alma."
     },
     {
@@ -54,7 +54,7 @@ pokeneas = [
         "nombre": "PokeneaRosa",
         "altura": 1.1,
         "habilidad": "Amor eterno",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea7.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea7.png",
         "frase_filosofica": "El amor es la fuerza más poderosa del universo."
     },
     {
@@ -62,7 +62,7 @@ pokeneas = [
         "nombre": "PokeneaMorado",
         "altura": 1.4,
         "habilidad": "Misterio eterno",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea8.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea8.png",
         "frase_filosofica": "El misterio es el alma de la curiosidad."
     },
     {
@@ -70,7 +70,7 @@ pokeneas = [
         "nombre": "PokeneaCyan",
         "altura": 1.6,
         "habilidad": "Agua helada",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea9.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea9.png",
         "frase_filosofica": "El agua fría es un refugio para el alma."
     },
     {
@@ -78,7 +78,7 @@ pokeneas = [
         "nombre": "PokeneaNaranja",
         "altura": 1.7,
         "habilidad": "Fuego ardiente",
-        "imagen": "https://TU_BUCKET.s3.amazonaws.com/pokenea10.png",
+        "imagen": "https://pokenea-imagenes-jebarriost.s3.us-east-1.amazonaws.com/pokenea10.png",
         "frase_filosofica": "El fuego ardiente es la pasión del alma."
     }
 ]
